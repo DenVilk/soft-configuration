@@ -1,0 +1,5 @@
+Host server-alias
+  User username
+  Port 22
+  HostName hostname
+  IdentityFile ~/.ssh/path_to_private_key
