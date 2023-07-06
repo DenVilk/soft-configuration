@@ -19,7 +19,9 @@ fi
 ZSH_THEME="duellj"
 
 alias cls="clear"
-
+alias penv="source .venv/bin/activate"
+alias dcb="docker compose up --build"
+alias dcu="docker compose up"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
